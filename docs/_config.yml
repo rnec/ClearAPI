@@ -1,0 +1,18 @@
+title: ClearAPI Documentation
+description: Sistema completo de integração com Clear Trading API
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+
+show_excerpts: true
+
+github:
+  repository_url: https://github.com/rnec/ClearAPI
