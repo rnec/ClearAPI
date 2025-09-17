@@ -1,0 +1,65 @@
+# URLs da Clear para extração de documentação
+# Linhas começando com # são comentários e serão ignoradas
+
+# URLs principais
+https://devs.clear.com.br/
+
+# URLs específicas de documentação (adicione conforme necessário)
+https://devs.clear.com.br/index.html#/md_about_smart_trader_api
+https://devs.clear.com.br/index.html#/md_hardware_requirements
+https://devs.clear.com.br/index.html#/md_negotiation_limits
+https://devs.clear.com.br/index.html#/md_essential_urls
+
+# Biblioteca Python
+https://devs.clear.com.br/index.html#/md_python_library_about
+https://devs.clear.com.br/index.html#/lib_method_python_initialize
+https://devs.clear.com.br/index.html#/lib_method_web_socket
+https://devs.clear.com.br/index.html#/lib_method_python_authentication
+https://devs.clear.com.br/index.html#/lib_method_python_custody_collateral
+https://devs.clear.com.br/index.html#/lib_method_python_market_data
+https://devs.clear.com.br/index.html#/lib_method_python_orders
+https://devs.clear.com.br/index.html#/lib_method_python_simulator
+https://devs.clear.com.br/index.html#/lib_entities_python_enums
+https://devs.clear.com.br/index.html#/lib_entities_python_custody_collateral
+https://devs.clear.com.br/index.html#/lib_entities_python_market_data
+https://devs.clear.com.br/index.html#/lib_entities_python_orders
+https://devs.clear.com.br/index.html#/samples_python_library
+
+# Hands On
+https://devs.clear.com.br/index.html#/samples_primeiros_passos
+https://devs.clear.com.br/index.html#/samples_token_access
+https://devs.clear.com.br/index.html#/samples_body_signature
+https://devs.clear.com.br/index.html#/samples_send_limited_order
+https://devs.clear.com.br/index.html#/samples_websocket_connection
+
+# Simulador
+https://devs.clear.com.br/index.html#/md_about_simulator
+https://devs.clear.com.br/index.html#/api_rest_post_v1_simulator_setup
+https://devs.clear.com.br/index.html#/api_rest_post_v1_simulator_reset
+
+# Segurança
+https://devs.clear.com.br/index.html#/md_about_body_signature
+https://devs.clear.com.br/index.html#/md_generate_credentials
+https://devs.clear.com.br/index.html#/md_access_token
+https://devs.clear.com.br/index.html#/api_rest_v1_auth
+
+# API RestFul
+https://devs.clear.com.br/index.html#/api_rest_get_v1_custody
+https://devs.clear.com.br/index.html#/api_rest_get_v1_collateral
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_quote
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_book
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_aggregate_book
+https://devs.clear.com.br/index.html#/api_rest_get_v1_orders
+https://devs.clear.com.br/index.html#/api_rest_get_v1_orders_history
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_cancel
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_market
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_market
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_limited
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_limited
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_stop_limit
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_stop_limit
+
+# Web Socket
+https://devs.clear.com.br/index.html#/ws_v1_market_data
+https://devs.clear.com.br/index.html#/ws_v1_orders

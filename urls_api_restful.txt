@@ -1,0 +1,19 @@
+URLs da categoria: API RestFul
+Total: 15 URLs
+==================================================
+
+https://devs.clear.com.br/index.html#/api_rest_get_v1_custody
+https://devs.clear.com.br/index.html#/api_rest_get_v1_collateral
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_quote
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_book
+https://devs.clear.com.br/index.html#/api_rest_get_v1_marketdata_aggregate_book
+https://devs.clear.com.br/index.html#/api_rest_get_v1_orders
+https://devs.clear.com.br/index.html#/api_rest_get_v1_orders_history
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_cancel
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_market
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_market
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_limited
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_limited
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_send_stop_limit
+https://devs.clear.com.br/index.html#/api_rest_post_v1_orders_replace_stop_limit

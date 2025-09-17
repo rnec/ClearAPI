@@ -1,0 +1,12 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+jinja2==3.1.2
+aiofiles==23.2.1
+
+# Dependências já existentes do seu projeto
+requests==2.31.0
+websocket-client==1.6.4
+colorama==0.4.6
+cryptography==41.0.7
