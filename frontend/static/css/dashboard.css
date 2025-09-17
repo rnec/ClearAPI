@@ -296,11 +296,21 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.025em;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Força remoção de qualquer animação de pulse nos botões */
+.order-button.animate-pulse,
+.order-button .animate-pulse {
+    animation: none !important;
 }
 
 .order-button:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* Remove qualquer animação de piscar no hover */
+    animation: none !important;
 }
 
 .order-button:active {
@@ -320,6 +330,8 @@
 
 .buy-button:hover:not(:disabled) {
     background: linear-gradient(135deg, #059669, #10b981);
+    /* Mantém o estado hover estático */
+    animation: none !important;
 }
 
 .sell-button {
@@ -328,6 +340,8 @@
 
 .sell-button:hover:not(:disabled) {
     background: linear-gradient(135deg, #dc2626, #ef4444);
+    /* Mantém o estado hover estático */
+    animation: none !important;
 }
 
 /* Estilos para input de quantidade */

@@ -290,10 +290,14 @@ class TradingDashboard {
                 // Reset quantity to 1 after successful order
                 quantityInput.value = '1';
                 
-                // Efeito visual de sucesso
+                // Efeito visual de sucesso - sem piscar
                 if (activeBtn) {
-                    activeBtn.classList.add('animate-pulse');
-                    setTimeout(() => activeBtn.classList.remove('animate-pulse'), 1000);
+                    activeBtn.style.transform = 'scale(1.05)';
+                    activeBtn.style.boxShadow = '0 0 10px rgba(16, 185, 129, 0.5)';
+                    setTimeout(() => {
+                        activeBtn.style.transform = '';
+                        activeBtn.style.boxShadow = '';
+                    }, 500);
                 }
             } else {
                 this.showOrderToast(`Erro: ${result.error}`, 'error');
