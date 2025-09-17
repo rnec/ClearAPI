@@ -164,6 +164,10 @@ cython_debug/
 config.ini
 secrets.json
 
+# API Keys and sensitive configuration
+ClearAPI/key_RSA.pem
+clear_api_config.env
+
 # IDE files
 .vscode/
 .idea/
